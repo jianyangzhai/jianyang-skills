@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "identity": {
+    "name": "Jianyang Zhai",
+    "handle": "jianyangzhai",
+    "github_profile": "https://github.com/jianyangzhai",
+    "repository": "https://github.com/jianyangzhai/jianyang-skills"
+  },
+  "featured_skill": {
+    "slug": "kindle-ebook-preflight",
+    "version": "1.0.0",
+    "license": "GPL-3.0-only",
+    "source": "https://github.com/jianyangzhai/jianyang-skills/tree/main/kindle-ebook-preflight"
+  },
+  "readme_contracts": {
+    "README.md": {
+      "required_headings": [
+        "Featured Skill",
+        "Evidence",
+        "Install",
+        "Trust boundaries",
+        "About",
+        "Licenses"
+      ],
+      "required_phrases": [
+        "npx skills add https://github.com/jianyangzhai/jianyang-skills --skill kindle-ebook-preflight",
+        "git clone https://github.com/jianyangzhai/jianyang-skills.git",
+        "openclaw skills install @jianyangzhai/kindle-ebook-preflight"
+      ],
+      "first_screen_attribution_max_chars": 2200
+    },
+    "README.zh-CN.md": {
+      "required_headings": [
+        "首个 Skill",
+        "证据",
+        "安装",
+        "信任边界",
+        "关于",
+        "许可证"
+      ],
+      "required_phrases": [
+        "npx skills add https://github.com/jianyangzhai/jianyang-skills --skill kindle-ebook-preflight",
+        "git clone https://github.com/jianyangzhai/jianyang-skills.git",
+        "openclaw skills install @jianyangzhai/kindle-ebook-preflight"
+      ],
+      "first_screen_attribution_max_chars": 2200
+    },
+    "kindle-ebook-preflight/README.md": {
+      "required_headings": [
+        "What you get",
+        "Install",
+        "Use",
+        "Evidence and limits",
+        "License"
+      ],
+      "required_phrases": [
+        "npx skills add https://github.com/jianyangzhai/jianyang-skills --skill kindle-ebook-preflight",
+        "git clone https://github.com/jianyangzhai/jianyang-skills.git",
+        "openclaw skills install @jianyangzhai/kindle-ebook-preflight"
+      ]
+    }
+  },
+  "evidence": {
+    "captured_on": "2026-08-24",
+    "local_self_tests": 14,
+    "epubcheck": "5.3.0",
+    "calibre": "9.13.0",
+    "actual_device_result": "previous workflow verified; this public synthetic fixture was not transferred"
+  }
+}

@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+*.epub
+*.mobi
+*.azw
+*.azw3
+*.kfx
+*.preflight.json
+*.preflight.md
+kindle-thumbnail-backups/

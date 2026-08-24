@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kindle 电子书质检"
+  short_description: "优化中文排版、保留字体选择并安全传送到 Kindle"
+  default_prompt: "Use $kindle-ebook-preflight to turn this local ebook into a clear reader-controlled Kindle Oasis AZW3, review it, and prepare an approved transfer copy."

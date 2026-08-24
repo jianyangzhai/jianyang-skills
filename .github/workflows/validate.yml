@@ -1,0 +1,23 @@
+name: Validate release boundaries
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  release-boundaries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verify branding, privacy, links, and ebook boundaries
+        run: python3 tests/test_release_boundaries.py
+      - name: Compile bundled Python scripts
+        run: python3 -m py_compile kindle-ebook-preflight/scripts/*.py tests/test_release_boundaries.py
+      - name: Verify CLI attribution
+        run: python3 kindle-ebook-preflight/scripts/ebook_pipeline.py --version
