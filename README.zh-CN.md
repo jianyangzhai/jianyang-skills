@@ -20,6 +20,16 @@ npx skills add https://github.com/jianyangzhai/jianyang-skills --skill kindle-eb
 
 ## 首个 Skill
 
+### [学习教练](learning-coach/README.zh-CN.md)
+
+先提供四种备选，再按选择带练：限时入门、易错题练习、个人学习路线和知识漏洞检查。中文指令，无可执行依赖；尚无学习效果实验数据。
+
+```bash
+DISABLE_TELEMETRY=1 npx skills add https://github.com/jianyangzhai/jianyang-skills --skill learning-coach
+```
+
+
+
 ### [Kindle Ebook Preflight](kindle-ebook-preflight/README.md)
 
 检查、规范化、目视复核并安全传输用户本地提供的 EPUB、MOBI、AZW 或 AZW3，同时保留 Kindle 的字体和阅读控制。

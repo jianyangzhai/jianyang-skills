@@ -1,0 +1,6 @@
+interface:
+  display_name: "学习教练（备选）"
+  short_description: "先提供四种学习方式供选择，再围绕具体目标进行练习、反馈和查漏补缺"
+  default_prompt: "用 $learning-coach 帮我选择适合当前学习目标的方式，再从一个可检验的小任务开始。"
+policy:
+  allow_implicit_invocation: true

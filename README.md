@@ -20,6 +20,16 @@ Built and maintained by [Jianyang Zhai](https://github.com/jianyangzhai) · [@ji
 
 ## Featured Skill
 
+### [Learning Coach](learning-coach/README.md)
+
+Optional guided learning in four modes: a time-boxed task, mistake-focused practice, a personal route, or a knowledge-gap check. Chinese instructions; no bundled executables. Teaching effectiveness is not empirically established.
+
+```bash
+DISABLE_TELEMETRY=1 npx skills add https://github.com/jianyangzhai/jianyang-skills --skill learning-coach
+```
+
+
+
 ### [Kindle Ebook Preflight](kindle-ebook-preflight/README.md)
 
 Inspect, normalize, visually review, approve, and safely transfer a locally supplied EPUB, MOBI, AZW, or AZW3 without forcing reader typography.
